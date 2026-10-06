@@ -3,6 +3,21 @@
 
 
 
+[color=#6FCB9F]Version: 1.1.012551[/color]
+
+Compact UI update and safer reply tracking.
+
+- Fixed outgoing reply resolution: an explicit recipient is no longer replaced by the current chat target, preventing another sender's unanswered notification from being marked answered and lost.
+- Hover tooltips now show the full cleaned latest message above the available actions. Restored cards without message text keep their explanatory placeholder.
+- Removed letter identity seals and inline group, friend, and guild glyphs. Sender-colored rails remain; relation details stay in the tooltip.
+- Compact rows now use separate areas for the sender name and muted message preview, with stable unread, status, time, and dismiss positions.
+- Replaced header symbols with stock ESO lock, collapse, and clear-all icons. Header title and count areas are bounded to avoid overlapping controls.
+- Six notifications are visible by default. A new setting selects 6, 8, or 12 per page without reloading or discarding tracked senders; the choice is saved account-wide.
+- Softened hover highlights and arrival/reminder pulses, made counters more neutral, and kept existing font sizes.
+- Updated English and Russian settings text and documentation for the new layout.
+
+
+
 [color=#6FCB9F]Version: 1.0.131353[/color]
 
 First public release.
